@@ -6,8 +6,17 @@
 }
 
 .image-brand {
-    width: 120px;
-    height: 60px;
+    width: 110px;
+    height: 50px;
+}
+
+.nav-item {
+    margin-left: -200px;
+    margin-top: 10px;
+}
+
+.icon-form {
+    margin-top: 10px;
 }
 
 .img-button {
@@ -40,7 +49,7 @@
     color: black;
 }
 
-.footer{
+.footer {
     width: 156px;
 }
 
@@ -76,13 +85,35 @@
 
 /* styling of Input */
 .input {
-    font-size: 0.9rem;
+    margin-top: 10px;
     background-color: transparent;
-    width: 100%;
-    height: 100%;
+    width: 690px;
+    height: 40px;
     padding-inline: 0.5em;
     padding-block: 0.7em;
     border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.input-card {
+    background-color: transparent;
+    width: 690px;
+    height: 40px;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* identical to box hei
 }
 
 /* styling of animated border */
@@ -136,6 +167,8 @@ input:not(:placeholder-shown)~.reset {
 }
 
 .btn-enter {
+    margin-top: 10px;
+    margin-right: -250px;
     width: 125px;
     height: 40px;
     padding: 10px 25px;
@@ -145,12 +178,15 @@ input:not(:placeholder-shown)~.reset {
     z-index: 1;
     background: #e8e8e8;
     position: relative;
-    font-weight: 1000;
-    font-size: 17px;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     transition: all 250ms;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .btn-enter::before {
@@ -177,7 +213,8 @@ input:not(:placeholder-shown)~.reset {
 }
 
 .btn-cart {
-    width: 115px;
+    margin-top: 10px;
+    width: 150px;
     height: 40px;
     padding: 10px 25px;
     border: unset;
@@ -186,12 +223,15 @@ input:not(:placeholder-shown)~.reset {
     z-index: 1;
     background: #e8e8e8;
     position: relative;
-    font-weight: 1000;
-    font-size: 17px;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
     transition: all 250ms;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .btn-cart::before {
@@ -225,15 +265,16 @@ input:not(:placeholder-shown)~.reset {
     padding-top: 40px;
     font-family: "Poppins", sans-serif;
     justify-content: center;
-  }
-  
-  .wrapper .icon {
+}
+
+.wrapper .icon {
     position: relative;
     background: #fff;
     border-radius: 50%;
-    margin: 10px;
-    width: 50px;
-    height: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -242,9 +283,9 @@ input:not(:placeholder-shown)~.reset {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip {
+}
+
+.wrapper .tooltip {
     position: absolute;
     top: 0;
     font-size: 14px;
@@ -256,9 +297,9 @@ input:not(:placeholder-shown)~.reset {
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip::before {
+}
+
+.wrapper .tooltip::before {
     position: absolute;
     content: "";
     height: 8px;
@@ -268,43 +309,183 @@ input:not(:placeholder-shown)~.reset {
     left: 50%;
     transform: translate(-50%) rotate(45deg);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .icon:hover .tooltip {
+}
+
+.wrapper .icon:hover .tooltip {
     top: -45px;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  }
-  
-  .wrapper .icon:hover span,
-  .wrapper .icon:hover .tooltip {
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wrapper .facebook:hover,
-  .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
     background: #1877F2;
     color: #fff;
-  }
-  
-  .wrapper .Vkontakte:hover,
-  .wrapper .Vkontakte:hover .tooltip,
-  .wrapper .Vkontakte:hover .tooltip::before {
+}
+
+.wrapper .Vkontakte:hover,
+.wrapper .Vkontakte:hover .tooltip,
+.wrapper .Vkontakte:hover .tooltip::before {
     background: #1DA1F2;
     color: #fff;
-  }
-  
-  .wrapper .instagram:hover,
-  .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
     background: #E4405F;
     color: #fff;
-  }
-  
-  .icon-socail{
+}
+
+.section-slider {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.card-time {
+    padding-left: 220px;
+}
+
+.card-title-form {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+
+.card-body {
+    margin-top: 20px;
+}
+
+.card-title {
+    width: 180px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.card-time {
+    margin-top: 7px;
+    width: 60px;
+    height: 22px;
+    padding: 1px 8px;
+    background: #000;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.card-text {
+    margin-top: -2px;
+    margin-left: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+}
+
+.icon-star {
+    margin-top: 1px;
+    margin-right: 7px;
+    width: 24px;
+    height: 24px;
+}
+
+.card-ball {
+    margin-top: -2px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+}
+
+.footer-logo {
+    width: 110px;
+    height: 50px;
+    margin-top: 48px;
+    margin-right: 35px;
+}
+
+.footer-link {
+    width: 130px;
+    margin-top: 68px;
+    padding-right: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #595959;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.right {
+    margin-right: 435px;
+}
+
+.icon-socail {
     width: 17px;
     height: 17px;
+}
+
+
+/*Pizza plus style*/
+
+.card-img{
+    width: 320px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-shop {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
   }
   
+  .btn-shop:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+  }
+  
+  .btn-shop:active {
+    transform: scale(0.9);
+  }

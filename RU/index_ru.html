@@ -8,16 +8,20 @@
     <title>Delivery food</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../Css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="../img/logo.png" alt="image: logo"></a>
+                <a class="navbar-brand" href="index_ru.html"><img src="../img/logo.png" alt="image: logo"
+                        class="image-brand"></a>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="index_en.html" role="button" data-bs-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" href="index_ru.html" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         <img src="../img/Icon/russia.png" alt="icon: RU"> RU
                     </a>
@@ -29,16 +33,9 @@
                 </li>
                 </ul>
                 <form class="form">
-                    <button>
-                        <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
-                            aria-labelledby="search">
-                            <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9"
-                                stroke="currentColor" stroke-width="1.333" stroke-linecap="round"
-                                stroke-linejoin="round">
-                            </path>
-                        </svg>
-                    </button>
-                    <input class="input" placeholder="Type your text" required="" type="text">
+                    <img src="../img/Icon/home.svg" alt="icon: home" class="icon-form"
+                        style="width: 17px; height: 17px; opacity: 0.5;">
+                    <input class="input" placeholder="Адрес доставки" required="" type="text">
                     <button class="reset" type="reset">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" stroke-width="2">
@@ -58,6 +55,363 @@
             </div>
         </nav>
     </header>
+
+    <section class="section-slider">
+        <div class="container">
+            <div class="slider">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <img src="../img/Slide/slide-2.png" class="d-block w-100" alt="image: slide-1">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="../img/Slide/slide-3.png" class="d-block w-100" alt="image: slide-2">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../img/Slide/slide-4.png" class="d-block w-100" alt="image: slide-3">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- /.slider -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section-slider -->
+
+    <section class="section-card-title">
+        <div class="container d-flex justify-content-between mb-5">
+            <h1 class="card-title-form">Рестораны</h1>
+            <form class="form">
+                <button>
+                    <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
+                        aria-labelledby="search" style="margin-top: -5px;">
+                        <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9"
+                            stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                    </svg>
+                </button>
+                <input class="input-card" placeholder="Поиск блюд" required="" type="text">
+                <button class="reset" type="reset">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section-card-title -->
+
+    <section class="section-card">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <a href="PizzaPlus.html" class="card-link">
+                                        <img src="../img/Card/card-1.png" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Пицца плюс</h5>
+                                                <span class="card-time">50 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star-50.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">4.5 </span>
+                                                <p class="card-text">От 900₽ | Пицца</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-2.png" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Тануки</h5>
+                                                <span class="card-time">50 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star5.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">5 </span>
+                                                <p class="card-text">От 1200₽ | Пицца</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-3.png" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">FoodBand</h5>
+                                                <span class="card-time">50 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star5.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">5 </span>
+                                                <p class="card-text">От 1500₽ | Пицца & Суши</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.carl-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-6.png" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Жадина-пицца</h5>
+                                                <span class="card-time">40 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star-50.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">4.2 </span>
+                                                <p class="card-text">От 900₽ | Пицца</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-5.png" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Точка еды</h5>
+                                                <span class="card-time">40 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star-50.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">3.9 </span>
+                                                <p class="card-text">От 1300₽ | Суши & Пицца</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-4.png" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Япония</h5>
+                                                <span class="card-time">30 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star5.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">5.2 </span>
+                                                <p class="card-text">От 2000₽ | Суши</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-chiken.jpg" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Chiken bro</h5>
+                                                <span class="card-time">50 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star-50.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">4.6 </span>
+                                                <p class="card-text">От 2200₽ | Курица</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-dessert.jpeg" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Легкий десерт</h5>
+                                                <span class="card-time">40 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star5.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">5 </span>
+                                                <p class="card-text">От 900₽ | Десерт</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-doner.jpg" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Донер</h5>
+                                                <span class="card-time">40 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star5.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">5.1 </span>
+                                                <p class="card-text">От 1800₽ | Донер</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-pizza.jpg" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">PizzaBurger</h5>
+                                                <span class="card-time">40 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star-50.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">4.4 </span>
+                                                <p class="card-text">От 1200₽ | Пицца & Бургер</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-sushi.jpeg" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Лучшие суши</h5>
+                                                <span class="card-time">40 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star-50.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">4.4 </span>
+                                                <p class="card-text">От 2100₽ | Суши</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <a href="#" class="card-link">
+                                        <img src="../img/Card/card-wok.jpg" class="card-img-top" alt="image: card">
+                                        <div class="card-body">
+                                            <div class="card-title-inline d-flex justify-content-between">
+                                                <h5 class="card-title">Азиатский Вок</h5>
+                                                <span class="card-time">50 мин</span>
+                                            </div>
+                                            <div class="card-inline d-flex justify-content-start">
+                                                <img src="../img/Icon/star-50.svg" alt="icon: star" class="icon-star">
+                                                <span class="card-ball">4.8 </span>
+                                                <p class="card-text">От 2500₽ | Вок</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <!-- /.card-link -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section-card -->
+
+    <section class="section-footer">
+        <div class="container">
+            <footer class="footer">
+                <div class="d-flex mb-3">
+                    <div class="p-2">
+                        <img src="../img/logo.png" alt="Image: logo" class="footer-logo">
+                    </div>
+                    <div class="p-2 d-flex justify-content-between">
+                        <a href="#" class="footer-link">Ресторанам</a>
+                        <a href="#" class="footer-link">Курьерам</a>
+                        <a href="#" class="footer-link">Пресс-центр</a>
+                        <a href="#" class="footer-link">Контакты</a>
+                    </div>
+                    <div class="right"></div>
+                    <div class="ms-auto p-2">
+                        <ul class="wrapper">
+                            <li class="icon instagram">
+                                <img src="../img/Icon/instagram.svg" alt="icon: Instagram" class="icon-socail">
+                                <span class="tooltip">Instagram</span>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </li>
+                            <li class="icon facebook">
+                                <img src="../img/Icon/facebook.svg" alt="icon: facebook" class="icon-socail">
+                                <span class="tooltip">Facebook</span>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </li>
+                            <li class="icon Vkontakte">
+                                <img src="../img/Icon/vkontakte.svg" alt="icon: Vkontakte" class="icon-socail">
+                                <span class="tooltip">Vkontakte</span>
+                                <span><i class="fab fa-twitter"></i></span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!-- /.footer -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section-footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
