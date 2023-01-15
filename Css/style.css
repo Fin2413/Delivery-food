@@ -558,6 +558,13 @@ input:not(:placeholder-shown)~.reset {
     padding-bottom: 5px;
 }
 
+.card-img-sushi{
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+
+}
+
 .card-title-shop {
     margin-left: 25px;
     font-family: 'Roboto', sans-serif;
