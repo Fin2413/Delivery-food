@@ -483,6 +483,14 @@ input:not(:placeholder-shown)~.reset {
     color: #000000;
 }
 
+.carousel-control-prev{
+    left: -120px;
+}
+
+.carousel-control-next{
+    right: -120px;
+}
+
 .icon-star-title {
     width: 24px;
     height: 24px;
