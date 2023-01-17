@@ -93,9 +93,9 @@
 
     <section class="section-card">
         <div class="container">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-interval="false" data-bs-wrap="false">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-item active">
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
@@ -171,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="5000">
+                    <div class="carousel-item" data-bs-interval="false" data-bs-wrap="false">
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
@@ -200,16 +200,16 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                <button class="carousel-control-prev-shop" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"><img src="../img/Icon/arrow-prev.svg"
-                            alt="" class="arrow"></span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><a role="button"
+                        class="button-name">1</a></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                <button class="carousel-control-next-shop" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"><img src="../img/Icon/arrow-next.svg"
-                            alt="" class="arrow"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"><a role="button"
+                        class="button-name">2</a></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>

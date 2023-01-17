@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -35,7 +35,7 @@
                 <form class="form">
                     <img src="../img/Icon/home.svg" alt="icon: home" class="icon-form"
                         style="width: 17px; height: 17px; opacity: 0.5;">
-                    <input class="input" placeholder="Delivery address" required="" type="text">
+                    <input class="input" placeholder="Адрес доставки required="" type="text">
                     <button class="reset" type="reset">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" stroke-width="2">
@@ -45,11 +45,11 @@
                 </form>
                 <button class="btn-enter">
                     <img src="../img/Icon/enter.svg" alt="icon: enter" class="img-button">
-                    Enter
+                    Войти
                 </button>
                 <button class="btn-cart">
                     <img src="../img/Icon/cart.svg" alt="icon: cart" class="img-button">
-                    Cart
+                    Корзина
                 </button>
             </div>
             </div>
@@ -60,11 +60,11 @@
         <div class="container">
             <div class="row">
                 <div class="card-inline d-flex justify-content-start">
-                    <h1 class="title">Light dessert</h1>
+                    <h1 class="title">Легкий десерт</h1>
                     <img src="../img/Icon/star5.svg" alt="icon: star" class="icon-star-title">
                     <span class="card-ball-title">5 </span>
-                    <p class="card-text-title">from 5$ | Dessert</p>
-                    <form class="form-shop">
+                    <p class="card-text-title">От 900₽ | Десерт</p>
+                    <form class="form-shop-7">
                         <button>
                             <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
                                 aria-labelledby="search" style="margin-top: -5px;">
@@ -75,7 +75,7 @@
                                 </path>
                             </svg>
                         </button>
-                        <input class="input-card" placeholder="Search for dishes" required="" type="text">
+                        <input class="input-card" placeholder="Поиск блюд" required="" type="text">
                         <button class="reset" type="reset">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor" stroke-width="2">
@@ -93,19 +93,19 @@
 
     <section class="section-card">
         <div class="container">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="5000">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-interval="false" data-bs-wrap="false">
+                <div class="carousel-inner" data-bs-interval="false">
+                    <div class="carousel-item active">
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
                                     <img src="../img/Food/Dessert/dessert-1.png" class="card-img" alt="image: Sushi">
                                     <div class="card-body">
-                                        <h5 class="card-title-shop">Berry cupcake</h5>
-                                        <p class="card-text">Wild berries, custard, Korzh</p>
-                                        <button class="btn-shop"> Add to cart
+                                        <h5 class="card-title-shop">Ягодный кекс</h5>
+                                        <p class="card-text">Лесные ягоды, заварной крем, корж</p>
+                                        <button class="btn-shop"> В корзину
                                         </button>
-                                        <span class="card-price">from 5$</span>
+                                        <span class="card-price">От 900₽</span>
                                     </div>
                                 </div>
                             </div>
@@ -113,11 +113,11 @@
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
                                     <img src="../img/Food/Dessert/dessert-2.png" class="card-img" alt="image: Sushi">
                                     <div class="card-body">
-                                        <h5 class="card-title-shop">Coffee and chocolate</h5>
-                                        <p class="card-text">Coffee, chocolate, cake</p>
-                                        <button class="btn-shop"> Add to cart
+                                        <h5 class="card-title-shop">Кофе и шоколад</h5>
+                                        <p class="card-text">Кофе, шоколад, торт</p>
+                                        <button class="btn-shop"> В корзину
                                         </button>
-                                        <span class="card-price">from 7$</span>
+                                        <span class="card-price">От 1200₽</span>
                                     </div>
                                 </div>
                             </div>
@@ -125,11 +125,11 @@
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
                                     <img src="../img/Food/Dessert/dessert-3.png" class="card-img" alt="image: Sushi">
                                     <div class="card-body">
-                                        <h5 class="card-title-shop">Сaramel cupcake</h5>
-                                        <p class="card-text">Caramel, chocolate, marshmallow</p>
-                                        <button class="btn-shop"> Add to cart
+                                        <h5 class="card-title-shop">Капкейк карамельный</h5>
+                                        <p class="card-text">Карамель, шоколад, зефир</p>
+                                        <button class="btn-shop"> В корзину
                                         </button>
-                                        <span class="card-price">from 10$</span>
+                                        <span class="card-price">От 1400₽</span>
                                     </div>
                                 </div>
                             </div>
@@ -137,11 +137,11 @@
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
                                     <img src="../img/Food/Dessert/dessert-4.png" class="card-img" alt="imageL pizza">
                                     <div class="card-body">
-                                        <h5 class="card-title-shop">Pear cake</h5>
-                                        <p class="card-text">Pear jam, chocolate, biscuit cake</p>
-                                        <button class="btn-shop"> Add to cart
+                                        <h5 class="card-title-shop">Грушевый торт</h5>
+                                        <p class="card-text">Грушевое варенье, шоколад, бисквитный корж</p>
+                                        <button class="btn-shop"> В корзину
                                         </button>
-                                        <span class="card-price">from 12$</span>
+                                        <span class="card-price">От 1600₽</span>
                                     </div>
                                 </div>
                             </div>
@@ -149,11 +149,11 @@
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
                                     <img src="../img/Food/Dessert/dessert-6.png" class="card-img" alt="imageL pizza">
                                     <div class="card-body">
-                                        <h5 class="card-title-shop">Strawberry basket</h5>
-                                        <p class="card-text">Strawberry biscuit, cake, topping</p>
-                                        <button class="btn-shop"> Add to cart
+                                        <h5 class="card-title-shop">Клубничная корзина</h5>
+                                        <p class="card-text">Клубничный бисквит, кекс, топпинг, клубничный джем</p>
+                                        <button class="btn-shop"> В корзину
                                         </button>
-                                        <span class="card-price">from 12$</span>
+                                        <span class="card-price">От 2000₽</span>
                                     </div>
                                 </div>
                             </div>
@@ -161,27 +161,27 @@
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
                                     <img src="../img/Food/Dessert/Untitled-1.png" class="card-img" alt="imageL pizza">
                                     <div class="card-body">
-                                        <h5 class="card-title-shop">Brownie</h5>
-                                        <p class="card-text">Dark chocolate, white chocolate</p>
-                                        <button class="btn-shop"> Add to cart
+                                        <h5 class="card-title-shop">Брауни</h5>
+                                        <p class="card-text">Темный шоколад, белый шоколад, мята, грецкий орех</p>
+                                        <button class="btn-shop"> В корзину
                                         </button>
-                                        <span class="card-price">from 15$</span>
+                                        <span class="card-price">От 2000₽</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="5000">
+                    <div class="carousel-item" data-bs-interval="false" data-bs-wrap="false">
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
                                     <img src="../img/Food/Dessert/dessert-5.png" class="card-img-sushi" alt="image: Sushi">
                                     <div class="card-body">
-                                        <h5 class="card-title-shop">Сharlotte</h5>
-                                        <p class="card-text">Dough, apples</p>
-                                        <button class="btn-shop"> Add to cart
+                                        <h5 class="card-title-shop">Шарлоттка</h5>
+                                        <p class="card-text">Тесто, яблоки</p>
+                                        <button class="btn-shop"> В корзину
                                         </button>
-                                        <span class="card-price">from 5$</span>
+                                        <span class="card-price">От 900₽</span>
                                     </div>
                                 </div>
                             </div>
@@ -189,27 +189,27 @@
                                 <div class="card h-100" style="padding-top: 30px; padding-bottom: 5px;">
                                     <img src="../img/Food/Dessert/dessert-7.png" class="card-img-sushi" alt="image: Sushi">
                                     <div class="card-body">
-                                        <h5 class="card-title-shop">Сhocolate croissant</h5>
-                                        <p class="card-text">Сhocolate, dough, sesame</p>
-                                        <button class="btn-shop"> Add to cart
+                                        <h5 class="card-title-shop">Шоколадный круассан</h5>
+                                        <p class="card-text">Шоколад, тесто, кунжут</p>
+                                        <button class="btn-shop"> В корзину
                                         </button>
-                                        <span class="card-price">from 7$</span>
+                                        <span class="card-price">От 900₽</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                <button class="carousel-control-prev-shop" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"><img src="../img/Icon/arrow-prev.svg"
-                            alt="" class="arrow"></span>
+                    <span class="carousel-control-prev-icon-shop" aria-hidden="true"><a role="button"
+                            class="button-name">1</a></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                <button class="carousel-control-next-shop" type="button" data-bs-target="#carouselExampleInterval"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"><img src="../img/Icon/arrow-next.svg"
-                            alt="" class="arrow"></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"><a role="button"
+                            class="button-name">2</a></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
@@ -264,6 +264,7 @@
     <!-- /.section-footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/main.js" ></script>
 </body>
 
 </html>

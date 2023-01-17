@@ -1,4 +1,4 @@
-body{
+body {
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 }
 
@@ -17,14 +17,6 @@ body{
 .nav-item {
     margin-left: -200px;
     margin-top: 10px;
-}
-
-.arrow{
-    opacity: 0.4;
-}
-
-.arrow:hover{
-    opacity: 0.8;
 }
 
 .icon-form {
@@ -55,17 +47,18 @@ body{
     background: #FFFFFF;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 7px;
-    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .card:hover {
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
     transition: 0.5s;
 }
 
 .card-img-top {
-    width: 414px;
-    height: 270px;
+    width: 395px;
+    height: 260px;
 }
 
 .card-link {
@@ -112,6 +105,56 @@ body{
     border: none;
     background: none;
     color: #8b8ba7;
+    justify-content: flex-end;
+}
+
+.form-shop-1 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
+}
+
+.form-shop-2 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
+}
+
+.form-shop-3 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
+}
+
+.form-shop-4 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
+}
+
+.form-shop-5 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
+}
+
+.form-shop-6 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
+}
+
+.form-shop-7 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
 }
 
 /* styling of whole input container */
@@ -133,7 +176,161 @@ body{
     border-radius: var(--border-radius);
     transition: border-radius 0.5s ease;
     background: var(--input-bg, #fff);
-    margin-left: 110px;
+    margin-left: 530px;
+    margin-top: 1px;
+}
+
+.form-shop-1 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 580px;
+    margin-top: 1px;
+}
+
+.form-shop-2 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 660px;
+    margin-top: 1px;
+}
+
+.form-shop-3 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 640px;
+    margin-top: 1px;
+}
+
+.form-shop-4 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 570px;
+    margin-top: 1px;
+}
+
+.form-shop-5 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 520px;
+    margin-top: 1px;
+}
+
+.form-shop-6 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 620px;
+    margin-top: 1px;
+}
+
+.form-shop-7 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 500px;
     margin-top: 1px;
 }
 
@@ -209,6 +406,161 @@ body{
     border-radius: var(--after-border-radius);
 }
 
+.form-shop-1:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-2:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-3:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-4:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-5:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-6:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-7:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-1:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form-shop-2:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form-shop-3:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form-shop-4:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form-shop-5:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form-shop-6:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form-shop-7:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+/* Hover on Input */
+.form-shop-1:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-2:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-3:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-4:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-5:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-6:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-7:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
 input:focus {
     outline: none;
 }
@@ -222,6 +574,35 @@ input:focus {
 .form-shop:focus-within:before {
     transform: scale(1);
 }
+
+.form-shop-1:focus-within:before {
+    transform: scale(1);
+}
+
+.form-shop-2:focus-within:before {
+    transform: scale(1);
+}
+
+.form-shop-3:focus-within:before {
+    transform: scale(1);
+}
+
+.form-shop-4:focus-within:before {
+    transform: scale(1);
+}
+
+.form-shop-5:focus-within:before {
+    transform: scale(1);
+}
+
+.form-shop-6:focus-within:before {
+    transform: scale(1);
+}
+
+.form-shop-7:focus-within:before {
+    transform: scale(1);
+}
+
 
 /* styling of close button */
 /* == you can click the close button to remove text == */
@@ -427,8 +808,9 @@ input:not(:placeholder-shown)~.reset {
     margin-bottom: 50px;
 }
 
-.carousel-item{
+.carousel-item {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .card-time {
@@ -443,9 +825,17 @@ input:not(:placeholder-shown)~.reset {
     line-height: 42px;
 }
 
+.arrow{
+    opacity: 0.3;
+}
+
+.arrow:hover{
+    opacity: 0.7;
+}
+
 
 .card-body {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .card-title {
@@ -548,12 +938,27 @@ input:not(:placeholder-shown)~.reset {
     color: #000000;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     left: -120px;
 }
-
-.carousel-control-next{
+.carousel-control-next {
     right: -120px;
+}
+
+.carousel-control-prev-shop {
+    width: 50px;
+    height: 45px;
+    top: 1055px;
+    border: none;
+    background: none;
+}
+.carousel-control-next-shop {
+    width: 50px;
+    height: 45px;
+    top: 1055px;
+    right: 1170px;
+    border: none;
+    background: none
 }
 
 .icon-star-title {
@@ -562,7 +967,7 @@ input:not(:placeholder-shown)~.reset {
     margin-top: 10px;
 }
 
-.icon-plus-title{
+.icon-plus-title {
     margin-top: -40px;
 }
 
@@ -631,7 +1036,7 @@ input:not(:placeholder-shown)~.reset {
     padding-bottom: 5px;
 }
 
-.card-img-sushi{
+.card-img-sushi {
     width: 250px;
     height: 150px;
     margin: 0 auto;
@@ -686,3 +1091,30 @@ input:not(:placeholder-shown)~.reset {
 .btn-shop:active {
     transform: scale(0.9);
 }
+
+
+.button-name {
+    width: fit-content;
+    min-width: 100px;
+    height: 45px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2.5px solid #E0E1E4;
+    box-shadow: 0px 0px 20px -20px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.2s ease-in-out 0ms;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.button-name:hover {
+    background-color: #F2F2F2;
+    box-shadow: 0px 0px 20px -18px;
+  }
+  
+  .button-name:active {
+    transform: scale(0.95);
+  }
