@@ -157,6 +157,20 @@ body {
     justify-content: flex-end;
 }
 
+.form-shop-8 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
+}
+
+.form-shop-9 button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+    justify-content: flex-end;
+}
+
 /* styling of whole input container */
 .form-shop {
     --timing: 0.3s;
@@ -334,6 +348,50 @@ body {
     margin-top: 1px;
 }
 
+.form-shop-8 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 545px;
+    margin-top: 1px;
+}
+
+.form-shop-9 {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: var(--width-of-input);
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    margin-left: 430px;
+    margin-top: 1px;
+}
+
 /* styling of Input */
 .input {
     margin-top: 10px;
@@ -431,6 +489,14 @@ body {
 }
 
 .form-shop-7:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-8:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-9:focus-within {
     border-radius: var(--after-border-radius);
 }
 
@@ -532,6 +598,34 @@ body {
     transition: transform var(--timing) ease;
 }
 
+.form-shop-8:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form-shop-9:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
 /* Hover on Input */
 .form-shop-1:focus-within {
     border-radius: var(--after-border-radius);
@@ -558,6 +652,14 @@ body {
 }
 
 .form-shop-7:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-8:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+.form-shop-9:focus-within {
     border-radius: var(--after-border-radius);
 }
 
@@ -600,6 +702,14 @@ input:focus {
 }
 
 .form-shop-7:focus-within:before {
+    transform: scale(1);
+}
+
+.form-shop-8:focus-within:before {
+    transform: scale(1);
+}
+
+.form-shop-9:focus-within:before {
     transform: scale(1);
 }
 
