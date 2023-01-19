@@ -1913,4 +1913,110 @@ input:not(:placeholder-shown)~.reset {
     .btn-nav-cart1{
         margin-right: -70px;
     }
+
+
+    /* shop */
+
+    .form-shop-1{
+        display: none;
+    }
+
+    .form-shop{
+        display: none;
+    }
+
+    .form-shop-2{
+        display: none;
+    }
+
+    .form-shop-3{
+        display: none;
+    }
+
+    .form-shop-4{
+        display: none;
+    }
+
+    .form-shop-5{
+        display: none;
+    }
+
+    .form-shop-6{
+        display: none;
+    }
+
+    .form-shop-7{
+        display: none;
+    }
+
+    .form-shop-8{
+        display: none;
+    }
+
+    .form-shop-9{
+        display: none;
+    }
+
+    .form-shop-12{
+        display: none;
+    }
+
+    .card-price{
+        margin-left: 85px;
+    }
+
+}
+
+@media (max-width: 540px){
+
+    .container{
+        max-width: 540px;
+    }
+
+    .navbar-brand{
+        margin-left: 10px;
+    }
+
+    .slider{
+        margin-left: 10px;
+    }
+
+    .btn-nav-1{
+        display: none;
+    }
+
+    .btn-nav-cart1{
+        display: none;
+    }
+
+    .nav-item-link{
+        display: none;
+    }
+
+    .card-title-form{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .container-card{
+        max-width: 540px;
+    }
+
+    .card-img-top{
+        width: 497px;
+        height: 350px;
+    }
+
+    .left{
+        margin-left: 10px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .right{
+        margin-left: -280px;
+    }
+
 }
