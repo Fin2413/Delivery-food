@@ -1059,8 +1059,8 @@ hr {
 }
 
 .btn-nav {
-    margin-top: 10px;
-    margin-right: 1px;
+    margin-top: -5px;
+    margin-right: 10px;
     width: 125px;
     height: 40px;
     border: unset;
@@ -1105,7 +1105,7 @@ hr {
 
 .btn-nav-1 {
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
     width: 60px;
     height: 40px;
     border: unset;
@@ -2069,6 +2069,175 @@ hr {
     font-weight:100;
 }
 
+/*Couriers*/
+
+.btn-anketa {
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    border: unset;
+    border-radius: 10px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-anketa::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #1890FF;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.btn-anketa:hover {
+    color: #e8e8e8;
+}
+
+.btn-anketa:hover::before {
+    width: 100%;
+}
+
+.btn-send {
+    width: 150px;
+    height: 40px;
+    margin-left: 850px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    border: unset;
+    border-radius: 10px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-send::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #1890FF;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.btn-send:hover {
+    color: #e8e8e8;
+}
+
+.btn-send:hover::before {
+    width: 100%;
+}
+
+.title-anketa{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-body-photo {
+    margin-left: 830px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 40px;
+    padding: 10px 25px;
+    border: unset;
+    border-radius: 10px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-body-photo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #1890FF;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.btn-body-photo:hover {
+    color: #e8e8e8;
+}
+
+.btn-body-photo:hover::before {
+    width: 100%;
+}
+
+.card-photo{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border: 0.5px rgba(0, 0, 0, 0.1) solid;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.form-control-file{
+    margin-top: 120px;
+    padding-bottom: 170px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.form-data{
+    margin-top: -350px;
+}
 
 /*Text-use*/
 
@@ -2695,4 +2864,9 @@ hr {
     .top-img-ru {
         display: none;
     }
+
+    .hrader{
+        margin-top: 202px;
+    }
+
 }

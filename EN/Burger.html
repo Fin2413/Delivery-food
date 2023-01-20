@@ -43,7 +43,8 @@
                         </svg>
                     </button>
                 </form>
-                <button class="btn-enter">
+                <button type="button" class="btn-enter btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModalToggle">
                     <img src="../img/Icon/enter.svg" alt="icon: enter" class="img-button">
                     Enter
                 </button>
@@ -54,6 +55,82 @@
             </div>
             </div>
         </nav>
+
+         <!--Modal-->
+         <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+         tabindex="-1">
+         <div class="modal-dialog modal-dialog-centered">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Sign in</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <input placeholder="Email or phone number" type="text" name="text" class="input-form">
+                 </div>
+
+                 <button type="button" class="btn-modal btn btn-primary" data-bs-toggle="modal"
+                     data-bs-target="#exampleModalToggle">
+                     Enter
+                 </button>
+
+                 <p class="modal-text">Or continue through</p>
+                 <div class="btn-net">
+                     <a href="#"><img src="../img/Icon/facebook.png" alt="icon: facebook"
+                             style="width: 25px; height: 25px;" class="btn-link-1"></a>
+                     <a href="#"><img src="../img/Icon/vkontakte.png" alt="icon: vkontakte"
+                             style="width: 25px; height: 25px;" class="btn-link"></a>
+                     <a href="#"><img src="../img/Icon/google.png" alt="icon: google"
+                             style="width: 25px; height: 25px;" class="btn-link"></a>
+                 </div>
+
+                 <hr>
+
+                 <button class="btn-modal-new btn btn-primary" data-bs-target="#exampleModalToggle2"
+                     data-bs-toggle="modal">Create an account</button>
+
+                 <a href="#" class="modal-help">Need help?</a>
+
+                 <p class="modal-text-2">
+                     By registering or logging in through social networks, you agree to the <a href="User.html">User
+                         Agreement and Privacy Policy</a>
+                 </p>
+             </div>
+         </div>
+     </div>
+     <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+         tabindex="-1">
+         <div class="modal-dialog modal-dialog-centered">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Create an account</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body">
+                     <input placeholder="Name" type="text" name="text" class="input-form">
+                     <input placeholder="Last name" type="text" name="text" class="input-form">
+                     <input placeholder="Email" type="text" name="text" class="input-form">
+                     <input placeholder="Phone number" type="text" name="text" class="input-form">
+
+                     <div class="body-btn">
+                         <button type="button" class="btn-body-modal btn btn-primary" data-bs-toggle="modal"
+                             data-bs-target="">
+                             Create
+                         </button>
+
+                         <button type="button" class="btn-body-modal btn btn-primary" data-bs-toggle="modal"
+                             data-bs-target="">
+                             Cancel
+                         </button>
+                     </div>
+                 </div>
+                 <div class="modal-footer">
+                     <button class="btn-body-modal btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back
+                         </button>
+                 </div>
+             </div>
+         </div>
+     </div>
 
         <!-- Header 720px-->
         <nav class="navbar navbar-mini bg-light fixed-top">
@@ -278,7 +355,7 @@
                     </div>
                     <div class="p-2 d-flex justify-content-between">
                         <a href="#" class="footer-link">Restaurants</a>
-                        <a href="#" class="footer-link">For couriers</a>
+                        <a href="Couriers.html" class="footer-link">For couriers</a>
                         <a href="#" class="footer-link">Press center</a>
                         <a href="#" class="footer-link">Contacts</a>
                     </div>
