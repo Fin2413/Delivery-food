@@ -991,60 +991,60 @@ input:not(:placeholder-shown)~.reset {
     width: 100%;
 }
 
-.modal-help{
+.modal-help {
     text-align: center;
     margin-bottom: 30px;
-    color:#000;
+    color: #000;
     text-decoration: none;
     font-size: 18px;
-    
+
 }
 
-.modal-text-2{
+.modal-text-2 {
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 5px;
     text-align: center;
 }
 
-.modal-help:hover{
+.modal-help:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.modal-text{
+.modal-text {
     text-align: center;
     margin-top: 15px;
 }
 
-.btn-net{
+.btn-net {
     margin-left: 200px;
 }
 
-.btn-link{
+.btn-link {
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.btn-link-1{
+.btn-link-1 {
     margin-left: -10px;
     margin-bottom: 10px;
 }
 
-hr{
+hr {
     width: 100%;
     opacity: 0.5;
 }
 
 
 
-.modal-footer-text{
+.modal-footer-text {
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
 }
 
-.modal-footer-text{
+.modal-footer-text {
     align-items: center;
 }
 
@@ -1915,7 +1915,7 @@ hr{
     transform: translateY(0);
 }
 
-.input {
+.input-form {
     width: 100%;
     max-width: 350px;
     height: 45px;
@@ -1927,20 +1927,155 @@ hr{
     box-shadow: 0px 0px 20px -18px;
     margin-left: 50px;
     margin-bottom: 30px;
-  }
-  
-  .input:hover {
+}
+
+.input-form:hover {
     border: 2px solid lightgrey;
     box-shadow: 0px 0px 20px -17px;
-  }
-  
-  .input:active {
+}
+
+.input-form:active {
     transform: scale(0.95);
-  }
-  
-  .input:focus {
+}
+
+.input-form:focus {
     border: 2px solid grey;
-  }
+}
+
+.btn-body-modal {
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 25px;
+    border: unset;
+    border-radius: 10px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-body-modal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #1890FF;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.btn-body-modal:hover {
+    color: #e8e8e8;
+}
+
+.btn-body-modal:hover::before {
+    width: 100%;
+}
+
+.btn-user {
+    text-decoration: none;
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-user:hover {
+    color: #e8e8e8;
+}
+
+/* use politic*/
+
+.btn-cart-use {
+    margin-left: 830px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 40px;
+    padding: 10px 25px;
+    border: unset;
+    border-radius: 10px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-cart-use::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #1890FF;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms
+}
+
+.btn-cart-use:hover {
+    color: #e8e8e8;
+}
+
+.btn-cart-use:hover::before {
+    width: 100%;
+}
+
+.title-top {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+}
+
+
+/*Text-use*/
+
+.title {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /* adaptiv */
 
