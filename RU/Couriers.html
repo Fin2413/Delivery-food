@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery food</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index_ru.html"><img src="../img/logo.png" alt="image: logo"
+                            class="image-brand"></a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Couriers.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="../img/Icon/russia.png" alt="icon: RU"> RU
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../EN/Couriers.html"><img src="../img/Icon/usa.png"
+                                        alt="icon: EN">
+                                    EN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    </ul>
+                    <button type="button" class="btn-anketa btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModalToggle">
+                        <img src="../img/Icon/enter.svg" alt="icon: enter" class="img-button">
+                        Войти
+                    </button>
+                </div>
+        </nav>
+        </div>
+    </header>
+
+    <!--Modal-->
+    <!--Modal-->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Авторизация</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input placeholder="Почта или номер телефона" type="text" name="text" class="input-form">
+                </div>
+
+                <button type="button" class="btn-modal btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModalToggle">
+                    Войти
+                </button>
+
+                <p class="modal-text">Или продолжить через</p>
+                <div class="btn-net">
+                    <a href="#"><img src="../img/Icon/facebook.png" alt="icon: facebook"
+                            style="width: 25px; height: 25px;" class="btn-link-1"></a>
+                    <a href="#"><img src="../img/Icon/vkontakte.png" alt="icon: vkontakte"
+                            style="width: 25px; height: 25px;" class="btn-link"></a>
+                    <a href="#"><img src="../img/Icon/google.png" alt="icon: google" style="width: 25px; height: 25px;"
+                            class="btn-link"></a>
+                </div>
+
+                <hr>
+
+                <button class="btn-modal-new btn btn-primary" data-bs-target="#exampleModalToggle2"
+                    data-bs-toggle="modal">Создать аккаунт</button>
+
+                <a href="#" class="modal-help">Нужна помощь?</a>
+
+                <p class="modal-text-2">
+                    Регистрируясь или авторизуясь через социальные сети, вы соглашаетесь с <a
+                        href="User.html">Пользователь
+                        Соглашение и политика конфиденциальности</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Создать аккаунт</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input placeholder="Name" type="text" name="text" class="input-form">
+                    <input placeholder="Last name" type="text" name="text" class="input-form">
+                    <input placeholder="Email" type="text" name="text" class="input-form">
+                    <input placeholder="Phone number" type="text" name="text" class="input-form">
+
+                    <div class="body-btn">
+                        <button type="button" class="btn-body-modal btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="">
+                            Создать
+                        </button>
+
+                        <button type="button" class="btn-body-modal btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="">
+                            Отмена
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-body-modal btn btn-primary" data-bs-target="#exampleModalToggle"
+                        data-bs-toggle="modal">Назад
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <Section class="anketa">
+        <div class="container">
+            <h1 class="title-anketa">Анкета для курьеров</h1>
+            <div class="row justify-content-start">
+                <div class="col col-xl-3">
+                    <div class="card-photo" style="width: 25rem; height: 25rem;">
+                        <div class="card-body">
+                            <input type="file" class="form-control-file" aria-label="file example" required>
+                            <div class="invalid-feedback">Пример отзыва о неверном файле формы</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="row justify-content-end form-data">
+                <div class="col-xl-3">
+                    <label for="inputEmail4" class="form-label">Почта</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-xl-3">
+                    <label for="inputPassword4" class="form-label">Пароль</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+            </form>
+            <form class="row justify-content-end mt-4">
+                <div class="col-xl-3">
+                    <label for="inputAddress" class="form-label">Адрес</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-xl-3">
+                    <label for="inputAddress2" class="form-label">Адрес 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+            </form>
+            <form class="row justify-content-end mt-4 mb-5">
+                <div class="col-xl-2">
+                    <label for="inputCity" class="form-label">Город</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-xl-2">
+                    <label for="inputState" class="form-label">Страна</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Выбрать...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-xl-2">
+                    <label for="inputZip" class="form-label">Индекс</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+        </div>
+        <!-- /.container -->
+    </Section>
+    <!-- /.anketa -->
+
+    <section class="section-footer">
+        <div class="container">
+            <footer class="footer" style="margin-top: 30px;">
+                <div class="d-flex mb-3">
+                    <div class="p-2">
+                        <img src="../img/logo.png" alt="Image: logo" class="footer-logo">
+                    </div>
+                    <div class="p-2 d-flex justify-content-between">
+                        <a href="#" class="footer-link">Рестораны</a>
+                        <a href="Couriers.html" class="footer-link">Курьерам</a>
+                        <a href="#" class="footer-link">Пресс-центр</a>
+                        <a href="#" class="footer-link">Контакты</a>
+                    </div>
+                    <div class="right"></div>
+                    <div class="ms-auto p-2">
+                        <ul class="wrapper">
+                            <li class="icon instagram">
+                                <img src="../img/Icon/instagram.svg" alt="icon: Instagram" class="icon-socail">
+                                <span class="tooltip">Instagram</span>
+                                <span><i class="fab fa-instagram"></i></span>
+                            </li>
+                            <li class="icon facebook">
+                                <img src="../img/Icon/facebook.svg" alt="icon: facebook" class="icon-socail">
+                                <span class="tooltip">Facebook</span>
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </li>
+                            <li class="icon Vkontakte">
+                                <img src="../img/Icon/vkontakte.svg" alt="icon: Vkontakte" class="icon-socail">
+                                <span class="tooltip">Vkontakte</span>
+                                <span><i class="fab fa-twitter"></i></span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!-- /.footer -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section-footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

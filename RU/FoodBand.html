@@ -43,7 +43,8 @@
                         </svg>
                     </button>
                 </form>
-                <button class="btn-enter">
+                <button type="button" class="btn-enter btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModalToggle">
                     <img src="../img/Icon/enter.svg" alt="icon: enter" class="img-button">
                     Войти
                 </button>
@@ -54,6 +55,82 @@
             </div>
             </div>
         </nav>
+
+        <!--Modal-->
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Авторизация</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input placeholder="Почта или номер телефона" type="text" name="text" class="input-form">
+                </div>
+
+                <button type="button" class="btn-modal btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModalToggle">
+                    Войти
+                </button>
+
+                <p class="modal-text">Или продолжить через</p>
+                <div class="btn-net">
+                    <a href="#"><img src="../img/Icon/facebook.png" alt="icon: facebook"
+                            style="width: 25px; height: 25px;" class="btn-link-1"></a>
+                    <a href="#"><img src="../img/Icon/vkontakte.png" alt="icon: vkontakte"
+                            style="width: 25px; height: 25px;" class="btn-link"></a>
+                    <a href="#"><img src="../img/Icon/google.png" alt="icon: google"
+                            style="width: 25px; height: 25px;" class="btn-link"></a>
+                </div>
+
+                <hr>
+
+                <button class="btn-modal-new btn btn-primary" data-bs-target="#exampleModalToggle2"
+                    data-bs-toggle="modal">Создать аккаунт</button>
+
+                <a href="#" class="modal-help">Нужна помощь?</a>
+
+                <p class="modal-text-2">
+                   Зарегистрировавшись или вошли через социальные сети, вы соглашаетесь с <a href="User.html">Пользователь
+                       Политика соглашения и конфиденциальности</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Создать аккаунт</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input placeholder="Имя" type="text" name="text" class="input-form">
+                    <input placeholder="Фамилия" type="text" name="text" class="input-form">
+                    <input placeholder="Почта" type="text" name="text" class="input-form">
+                    <input placeholder="Номер телефона" type="text" name="text" class="input-form">
+
+                    <div class="body-btn">
+                        <button type="button" class="btn-body-modal btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="">
+                            Создать
+                        </button>
+
+                        <button type="button" class="btn-body-modal btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="">
+                            Отмена
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-body-modal btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Назад
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
          <!-- Header 720px-->
          <nav class="navbar navbar-mini bg-light fixed-top">
@@ -387,7 +464,7 @@
                     </div>
                     <div class="p-2 d-flex justify-content-between">
                         <a href="#" class="footer-link">Рестораны</a>
-                        <a href="#" class="footer-link">Курьерам</a>
+                        <a href="Couriers.html" class="footer-link">Курьерам</a>
                         <a href="#" class="footer-link">Пресс-центр</a>
                         <a href="#" class="footer-link">Контакты</a>
                     </div>
