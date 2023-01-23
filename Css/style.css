@@ -2869,4 +2869,31 @@ hr {
         margin-top: 202px;
     }
 
+    /*Modal*/
+
+    .modal{
+        max-width: 350px;
+        margin-left: 10px;
+    }
+    
+    .input-form{
+        width: 200px;
+    }
+
+    .btn-modal{
+        margin: 0 auto;
+        width: 140px;
+        margin-top: -20px;
+    }
+
+    .btn-net{
+        margin: 0 auto;
+    }
+
+    .btn-modal-new{
+        margin: 0 auto;
+        width: 140px;
+        margin-bottom: 20px;
+    }
+
 }
